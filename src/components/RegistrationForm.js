@@ -1,4 +1,3 @@
-// src/components/RegistrationForm.js
 import React, { useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
@@ -70,7 +69,7 @@ const RegistrationForm = () => {
                 value={formik.values.name}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-              className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
+                className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
               />
               {formik.touched.name && formik.errors.name && (
                 <p className="text-red-500">{formik.errors.name}</p>
@@ -104,7 +103,7 @@ const RegistrationForm = () => {
                 value={formik.values.username}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-              className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
+                className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
               />
               {formik.touched.username && formik.errors.username && (
                 <p className="text-red-500">{formik.errors.username}</p>
@@ -126,7 +125,7 @@ const RegistrationForm = () => {
                 value={formik.values.phone}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-              className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
+                className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
               />
               {formik.touched.phone && formik.errors.phone && (
                 <p className="text-red-500">{formik.errors.phone}</p>
@@ -143,7 +142,7 @@ const RegistrationForm = () => {
                 value={formik.values.address}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-              className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
+                className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
               />
               {formik.touched.address && formik.errors.address && (
                 <p className="text-red-500">{formik.errors.address}</p>
@@ -160,7 +159,7 @@ const RegistrationForm = () => {
                 value={formik.values.country}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-              className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
+                className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
               />
               {formik.touched.country && formik.errors.country && (
                 <p className="text-red-500">{formik.errors.country}</p>
@@ -177,7 +176,7 @@ const RegistrationForm = () => {
                 value={formik.values.state}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-              className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
+                className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
               />
               {formik.touched.state && formik.errors.state && (
                 <p className="text-red-500">{formik.errors.state}</p>
@@ -194,7 +193,7 @@ const RegistrationForm = () => {
                 value={formik.values.city}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-              className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
+                className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
               />
               {formik.touched.city && formik.errors.city && (
                 <p className="text-red-500">{formik.errors.city}</p>
@@ -216,7 +215,7 @@ const RegistrationForm = () => {
                 value={formik.values.portfolio}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-              className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
+                className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
               />
               {formik.touched.portfolio && formik.errors.portfolio && (
                 <p className="text-red-500">{formik.errors.portfolio}</p>
@@ -233,7 +232,7 @@ const RegistrationForm = () => {
                 value={formik.values.github}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-              className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
+                className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
               />
               {formik.touched.github && formik.errors.github && (
                 <p className="text-red-500">{formik.errors.github}</p>
@@ -250,7 +249,7 @@ const RegistrationForm = () => {
                 value={formik.values.website}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-              className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
+                className="form-input bg-slate-50 px-2 rounded-lg py-1 w-full"
               />
               {formik.touched.website && formik.errors.website && (
                 <p className="text-red-500">{formik.errors.website}</p>

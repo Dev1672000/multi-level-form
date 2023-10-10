@@ -1,7 +1,5 @@
-
 import RegistrationForm from "./components/RegistrationForm";
 import Listing from "./components/SingleView";
-
 
 function App() {
   return (
